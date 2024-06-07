@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تطبيق القرآن الكريم</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>تطبيق القرآن الكريم</h1>
+        <label for="reciter">اختر القارئ:</label>
+        <select id="reciter">
+            <option value="shaarawi">الشيخ الشعراوي</option>
+            <option value="abdulbasit">الشيخ عبد الباسط</option>
+        </select>
+        <label for="sura">اختر السورة:</label>
+        <select id="sura"></select>
+        <button id="play">تشغيل</button>
+        <audio id="audioPlayer" controls></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
